@@ -12,6 +12,11 @@ export const Navbar = () => {
 					<button className="btn btn-primary">Check the Context in action</button>
 				</Link>
 			</div>
+			<div className="ml-auto">
+				<Link to="/todo">
+					<button className="btn btn-primary">Mi Lista De Tareas Bien Facherita Facherita</button>
+				</Link>
+			</div>
 		</nav>
 	);
 };
