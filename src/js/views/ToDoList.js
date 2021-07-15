@@ -23,7 +23,7 @@ const ToDoList = props => {
 	const handleAddTask = e => {
 		e.preventDefault();
 		setWorking(true);
-		if (newTask.trim().length < 3) {
+		if (newTask.trim().length < 5) {
 			alert("sorry, can't create such short tasks!");
 		} else {
 			let newTasks = [
